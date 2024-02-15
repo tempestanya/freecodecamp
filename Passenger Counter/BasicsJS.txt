@@ -1,0 +1,16 @@
+document.getElementById("count-el").innerText = 5;
+
+--> JS allows arithmatic operations on variables
+let firstBatch = 5;
+let secondBatch = 7;
+let count = firstBatch + secondBatch;
+console.log(count);   // ----prints
+
+--> JS allows to reassign let variables
+let count = 5;
+count = 3;
+console.log(count);   ----prints 3
+
+--> 'let' variables are block scoped ----they can only be invoked for code write inside the function they are initialised in that function
+
+--> DOM (Document Object Model): how we use JS to modify a website
