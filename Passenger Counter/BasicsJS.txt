@@ -14,3 +14,21 @@ console.log(count);   ----prints 3
 --> 'let' variables are block scoped ----they can only be invoked for code write inside the function they are initialised in that function
 
 --> DOM (Document Object Model): how we use JS to modify a website
+
+STRINGS:
+----> Concatenation of two strings
+let username = "Anjali"
+let message = "You have a new message"
+let messagetouser = username + ", " + message + "!"   
+console.log(messagetouser) 
+
+----> Strings vs numbers (strings always win)
+let a = 3
+let b = "10"
+let totalpoints = a+b     ---> "3" + "10" (3 will be turned into a string)
+console.log(totalpoints)  ---> this will give 310 and not 13
+console.log(1 + 2)     ---> returns 3
+console.log(1 + "2")   ---> returns 12
+console.log("1" + "2") ---> returns 12
+console.log("1" + 2)   ---> returns 12
+
